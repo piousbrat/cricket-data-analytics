@@ -8,5 +8,6 @@ The csv file should be saved in the R working directory.
 Run the code.
 
 Note: In case the csv file is not in the working directory, please set the path in the second line of the code:
-ball_info <-  read.csv   ("~/ball_info.csv", stringsAsFactors=FALSE)
+ball_info <-  read.csv   ("/ball_info.csv", stringsAsFactors=FALSE)
+
 Provide the address to the csv file in place of "~/ball_info.csv" .
